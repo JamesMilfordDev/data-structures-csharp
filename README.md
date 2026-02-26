@@ -35,29 +35,29 @@ Each source file documentation block includes the following sections:
 
 The library divides into three areas:
 
-(A) Linear structures.
-(B) Tree structures.
-(C) Graph structures.
+- (A) Linear structures
+- (B) Tree structures
+- (C) Graph structures
 
 Each area is structured as one or more conceptual flows.
 
 (A) Linear structures:
 
-(A.i) `SimpleNode<T>` => `SinglyLinkedList<T>` => `Queue<T>` and `Stack<T>`
-(A.ii) `ComplexNode<T>` => `DoublyLinkedList<T>` => `Deque<T>`
-(A.iii) `ArrayDeque<T>`
+- (A.i) `SimpleNode<T>` => `SinglyLinkedList<T>` => `Queue<T>` and `Stack<T>`
+- (A.ii) `ComplexNode<T>` => `DoublyLinkedList<T>` => `Deque<T>`
+- (A.iii) `ArrayDeque<T>`
 
 
 (B) Tree structures:
 
-(B.i) `GeneralTreeNode<T>` => `GeneralTree<T>` => `ComposedBinaryTree<T>`
-(B.ii) `BinaryTreeNode<T>` => `BinaryTree<T>` => `BinarySearchTree<T>` and `MinHeap<T>`
-(B.iii) `ArrayMinHeap<T>`
+- (B.i) `GeneralTreeNode<T>` => `GeneralTree<T>` => `ComposedBinaryTree<T>`
+- (B.ii) `BinaryTreeNode<T>` => `BinaryTree<T>` => `BinarySearchTree<T>` and `MinHeap<T>`
+- (B.iii) `ArrayMinHeap<T>`
 
 
 (C) Graph structures:
 
-(C.i) `GraphNode<T>` => `Graph<T>`
+- (C.i) `GraphNode<T>` => `Graph<T>`
 
 ## Suggested Reading Order
 
